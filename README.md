@@ -6,6 +6,14 @@ Installation directions
 
 Examples
 ----
-1) Begin notebook with `Needs["XKCD`"]`
+Sample notebook. Note - You need to begin the notebook with the Needs command
+`Needs["XKCD``"]
+xkcdConvert[
+ BarChart[{10, 1}, ChartLabels -> {"XKCD", "Others"}, 
+  PlotLabel -> "Popularity of questions on MMA.SE", 
+  Ticks -> {None, {{1, "Min"}, {10, "Max"}}}]]`
 
-
+Attributions
+--------------
+- Graphing code accredited to github user Simon Woods (https://mathematica.stackexchange.com/users/862/simon-woods)
+- Font from  XKCD (http://www.xkcd.com/fonts/xkcd-Regular.otf)
