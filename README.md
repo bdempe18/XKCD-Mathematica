@@ -1,5 +1,11 @@
 # XKCK-Mathematica
-Package to create XKCK style plots in Mathematica
-1) Add the .m file to Mathmatica/Applications. These are hidden files, so you will need to make them visible. 
-2) Edit the .m file, the xkcdStyle...FontFont file needs to be changed to whereever you saved the .otf file.
-3) In notebook evaluate Needs["XKCD`"]
+Installation directions
+-------------------------
+1) Download xkcd font from http://www.xkcd.com/fonts/xkcd-Regular.otf. Save file to .Mathematica/Applications
+2) Save .m file to .Mathematica/Applications
+
+Examples
+----
+1) Begin notebook with `Needs["XKCD`"]`
+
+
