@@ -5,8 +5,10 @@ BeginPackage["XKCD`"]
 xkcdConvert::usage="XKCD style graphs"
 
 Begin["`Private`"]
+(* Font download can be found at http://www.xkcd.com/fonts/xkcd-Regular.otf *)
 xkcdStyle = {FontFamily -> "/home/scooberftw/xkcd-font-master/build/xkcd.otf", 16};
 
+(* Attributed to Stackexchange user Simon Woods https://mathematica.stackexchange.com/users/862/simon-woods*)
 xkcdLabel[{str_, {x1_, y1_}, {xo_, yo_}}] := Module[{x2, y2},
    x2 = x1 + xo; y2 = y1 + yo;
    {Inset[
