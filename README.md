@@ -8,11 +8,13 @@ Installation
 Examples
 ----
 Sample notebook. Note - You need to begin the notebook with the Needs command
-`Needs["XKCD``"]
-xkcdConvert[
- BarChart[{10, 1}, ChartLabels -> {"XKCD", "Others"}, 
+
+```
+Needs["XKCD``"]
+BarChart[{10, 1}, ChartLabels -> {"XKCD", "Others"}, 
   PlotLabel -> "Popularity of questions on MMA.SE", 
-  Ticks -> {None, {{1, "Min"}, {10, "Max"}}}]]`
+  Ticks -> {None, {{1, "Min"}, {10, "Max"}}}] // xkcdConvert
+```
 
 Attributions
 --------------
